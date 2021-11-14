@@ -17,13 +17,12 @@ public class StandardPrimitives {
             System.out.println("Нет действительных решений уравнения");
         } else if (Discrimenant == 0) {
             x1 = (-b) / (2 * a);
-            System.out.printf("Уравнение имеет один единственный корень x1 = %s",x1);
+            System.out.printf("Уравнение имеет один единственный корень x1 = %s", x1);
         } else if (Discrimenant > 0) {
-             x1 = (-b + Math.sqrt(Discrimenant)) / (2 * a);
-             x2 = (-b - Math.sqrt(Discrimenant)) / (2 * a);
-            System.out.printf("Уравнение имеет два единственных корня x1 = %s, x2 = %s",x1,x2);
+            x1 = (-b + Math.sqrt(Discrimenant)) / (2 * a);
+            x2 = (-b - Math.sqrt(Discrimenant)) / (2 * a);
+            System.out.printf("Уравнение имеет два единственных корня x1 = %s, x2 = %s", x1, x2);
         }
-
     }
 }
 
